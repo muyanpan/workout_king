@@ -1,0 +1,39 @@
+.bannerTitleText {
+    font-size: 250%;
+}
+
+#bannerTitle {
+    background-image: url(images/super_healthy_food.jpg);
+    background-size: 100%;
+    background-position: center;
+}
+
+#courseDescription {
+    background-color: lightblue;
+}
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+#blockText:hover{
+    font-weight: bold;
+    animation: bounce 2s;
+}
+
+body{
+    font-family: cursive;
+}
