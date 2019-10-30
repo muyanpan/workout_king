@@ -37,3 +37,36 @@
 body{
     font-family: cursive;
 }
+#instruction1{
+	text-align: center;
+	font-size: 25px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#instruction2{
+	text-align: center;
+	font-size: 25px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#menu{
+	text-align: left;
+	top: 30px;
+	left: 170px;
+}
+#input_amount {
+    max-width: 15em;
+    top: 30px;
+    left: 170px;
+}
+.food{
+	width: 160px;
+	height: 160px;
+	position:absolute;
+	text-align: center;
+}
+.is-food{
+	height: 200px;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
