@@ -1,4 +1,2 @@
 # workout_king
-# hello world
-# hello
-# dfsd
+we are planning to make a diet tracking web application. In this application, users are able to keep track of their daily exercises and the amount of calories that they burn. Users will have the opportunity to customize their weekly workout plan in order to achieve their calorie goals. The application will have the user create an account and sign up in order to track their individual calorie statistics. Participants will have to enter their height, weight, and body-fat percentage, so our application can accurately calculate their calorie output. Other features of our application include a food-calorie catalog, in which the user can input their daily diet or choose from the list we have pre-created, and we can calculate the amount of calories they need to burn off in order to maintain their weight. 
