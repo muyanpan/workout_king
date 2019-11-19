@@ -9,7 +9,7 @@
 }
 
 #courseDescription {
-    background-color: lightblue;
+	background-color :  hsl(171, 100%, 41%);
 }
 
 @keyframes bounce {
@@ -35,7 +35,7 @@
 }
 
 body{
-    font-family: cursive;
+	font-family: cursive;
 }
 #instruction1{
 	text-align: center;
@@ -74,9 +74,22 @@ body{
 }
 
 #login{
-	background-color: lightblue;
+	background-color: hsl(171, 100%, 41%);
+	font-family: cursive;
+	color:white;
 }
 
 #logo{
 	padding-bottom: 6px;
 }
+
+#pictures{
+	background-color: hsl(171, 100%, 41%);
+}
+
+#buttonText {
+    color: black;
+}
+
+
+
