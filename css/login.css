@@ -133,3 +133,9 @@
       color: #777;
     }
   }
+
+  #new_account_hint{
+    padding: 5px;
+    color: rgba(119, 119, 119, 0.5);
+    text-align: center;
+  }
