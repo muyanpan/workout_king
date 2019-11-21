@@ -1,3 +1,28 @@
 #headBanner {
     background-color: skyblue;
 }
+
+body {
+    font-family: cursive;
+}
+
+.header {
+    font-weight: bold;
+}
+
+#finishedUserInfo {
+    background-color: skyblue;
+}
+
+#buttonText{
+    color: black;
+    font-size: 125%;
+}
+
+#userInput {
+    font-size: 150%;
+}
+
+#GenderTitle {
+    text-align: center;
+}
