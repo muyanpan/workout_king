@@ -54,6 +54,7 @@ body{
 	display: inline-block;
 	top: 30px;
 	left: 170px;
+	color: skyblue
 }
 #input_amount {
     max-width: 15em;
@@ -75,7 +76,7 @@ body{
 }
 
 #login{
-	background-color: hsl(171, 100%, 41%);
+	background-color:skyblue;
 	font-family: cursive;
 	color:white;
 }
@@ -92,5 +93,144 @@ body{
     color: black;
 }
 
+#demoButton{
+	text-align: center;
+	padding-left: 25%;
+	padding-right: 25%;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+#demoLink {
+    text-decoration:none;
+    font-family:Arial;
+    display: block;
+}
 
+.button.is-primary {
+	background-color: skyblue;
+	border-color: transparent;
+	color: #fff;
+  }
+  
+  .button.is-primary:hover, .button.is-primary.is-hovered {
+	background-color: #00c4a7;
+	border-color: transparent;
+	color: #fff;
+  }
+  
+  .button.is-primary:focus, .button.is-primary.is-focused {
+	border-color: transparent;
+	color: #fff;
+  }
+  
+  .button.is-primary:focus:not(:active), .button.is-primary.is-focused:not(:active) {
+	box-shadow: 0 0 0 0.125em rgba(0, 209, 178, 0.25);
+  }
+  
+  .button.is-primary:active, .button.is-primary.is-active {
+	background-color: #00b89c;
+	border-color: transparent;
+	color: #fff;
+  }
+  
+  .button.is-primary[disabled],
+  fieldset[disabled] .button.is-primary {
+	background-color: skyblue;
+	border-color: transparent;
+	box-shadow: none;
+  }
+  
+  .button.is-primary.is-inverted {
+	background-color: #fff;
+	color: skyblue;
+  }
+  
+  .button.is-primary.is-inverted:hover, .button.is-primary.is-inverted.is-hovered {
+	background-color: #f2f2f2;
+  }
+  
+  .button.is-primary.is-inverted[disabled],
+  fieldset[disabled] .button.is-primary.is-inverted {
+	background-color: #fff;
+	border-color: transparent;
+	box-shadow: none;
+	color: skyblue;
+  }
+  
+  .button.is-primary.is-loading::after {
+	border-color: transparent transparent #fff #fff !important;
+  }
+  
+  .button.is-primary.is-outlined {
+	background-color: transparent;
+	border-color: skyblue;
+	color: skyblue;
+  }
+  
+  .button.is-primary.is-outlined:hover, .button.is-primary.is-outlined.is-hovered, .button.is-primary.is-outlined:focus, .button.is-primary.is-outlined.is-focused {
+	background-color: skyblue;
+	border-color: skyblue;
+	color: #fff;
+  }
+  
+  .button.is-primary.is-outlined.is-loading::after {
+	border-color: transparent transparent skyblue skyblue !important;
+  }
+  
+  .button.is-primary.is-outlined.is-loading:hover::after, .button.is-primary.is-outlined.is-loading.is-hovered::after, .button.is-primary.is-outlined.is-loading:focus::after, .button.is-primary.is-outlined.is-loading.is-focused::after {
+	border-color: transparent transparent #fff #fff !important;
+  }
+  
+  .button.is-primary.is-outlined[disabled],
+  fieldset[disabled] .button.is-primary.is-outlined {
+	background-color: transparent;
+	border-color: skyblue;
+	box-shadow: none;
+	color: skyblue;
+  }
+  
+  .button.is-primary.is-inverted.is-outlined {
+	background-color: transparent;
+	border-color: #fff;
+	color: #fff;
+  }
+  
+  .button.is-primary.is-inverted.is-outlined:hover, .button.is-primary.is-inverted.is-outlined.is-hovered, .button.is-primary.is-inverted.is-outlined:focus, .button.is-primary.is-inverted.is-outlined.is-focused {
+	background-color: #fff;
+	color: skyblue;
+  }
+  
+  .button.is-primary.is-inverted.is-outlined.is-loading:hover::after, .button.is-primary.is-inverted.is-outlined.is-loading.is-hovered::after, .button.is-primary.is-inverted.is-outlined.is-loading:focus::after, .button.is-primary.is-inverted.is-outlined.is-loading.is-focused::after {
+	border-color: transparent transparent skyblue skyblue !important;
+  }
+  
+  .button.is-primary.is-inverted.is-outlined[disabled],
+  fieldset[disabled] .button.is-primary.is-inverted.is-outlined {
+	background-color: transparent;
+	border-color: #fff;
+	box-shadow: none;
+	color: #fff;
+  }
+  
+  .button.is-primary.is-light {
+	background-color: #ebfffc;
+	color: rgb(119, 205, 240);
+  }
+  
+  .button.is-primary.is-light:hover, .button.is-primary.is-light.is-hovered {
+	background-color: #defffa;
+	border-color: transparent;
+	color: rgb(119, 205, 240);
+  }
+  
+  .button.is-primary.is-light:active, .button.is-primary.is-light.is-active {
+	background-color: #d1fff8;
+	border-color: transparent;
+	color: rgb(119, 205, 240);
+  }
+  
+.is-info.input, .is-info.textarea {
+    border-color: skyblue;
+}
