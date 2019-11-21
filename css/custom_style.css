@@ -8,8 +8,9 @@
     background-position: center;
 }
 
-#courseDescription {
-	background-color :  hsl(171, 100%, 41%);
+#appDescription {
+	background-color :  skyblue;
+	opacity:70%;
 }
 
 @keyframes bounce {
@@ -84,7 +85,7 @@ body{
 }
 
 #pictures{
-	background-color: hsl(171, 100%, 41%);
+	
 }
 
 #buttonText {
