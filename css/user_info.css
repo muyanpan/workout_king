@@ -27,7 +27,11 @@ body {
     text-align: center;
 }
 
-.middleTile {
-    float: center;
+.arrowNavi {
+    font-size: 800%;
+    text-align: center;
+    background-color: skyblue;
 }
+
+
 

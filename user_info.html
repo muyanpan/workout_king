@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <section class="hero is-small has-text-centered" id="headBanner">
+    <section class="hero is-medium has-text-centered" id="headBanner">
         <div class="hero-body">
             <div class="container">
                 <h1 class="title infoTitleText">
@@ -21,11 +21,39 @@
         </div>
     </section>
 
-    <div class = "tile is-parent box section">
-        <div class="tile is-child is-4 middleTile">
+    <section class="section">
+        <div class="container">
+            <div class="tabs is-medium is-centered">
+                <ul>
+                    <li id = "genderTab"><a>Gender</a></li>
+                    <li id = "heightTab"><a>Height</a></li>
+                    <li id = "weightTab"><a>Weight</a></li>
+                    <li id = "targetTab"><a>Target Weight</a></li>
+                    <li id = "allergiesTab"><a>Food Allergies</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <div class="tile is-parent box section columns">
+        <div class="tile is-child column">
+            <div>
+                <label class="arrowNavi button" id = "leftArrow">
+                    <h1>&larr;</h1>
+                </label>
+            </div>
+        </div>
+        <div class="tile is-child column">
             <div id="root">
                 <script src="js/user_info.js" type="module"></script>
                 <script src="node_modules/jquery/dist/jquery.js"></script>
+            </div>
+        </div>
+        <div class="tile is-child column">
+            <div>
+                <label class="arrowNavi button" id = "rightArrow">
+                    <h1>&rarr;</h1>
+                </label>
             </div>
         </div>
     </div>

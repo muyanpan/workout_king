@@ -1,7 +1,8 @@
+let tabCounter = 0;
+
 let genderSelect = (
     `<div class="userInput">
     <section class="box columns" id="GenderSelector">
-        <div class="tile column"></div>
         <div class="tile">
             <h1 class="header">
                 Gender:
@@ -19,7 +20,6 @@ let genderSelect = (
                 </label>
             </div>
         </div>
-        <div class="tile column"></div>
     </section>
     </div>`
 );
@@ -27,7 +27,6 @@ let genderSelect = (
 let heightSelect = (
     `<div class="userInput">
     <section class="box columns" id="HeightSelector">
-            <div class="tile column"></div>
             <div>
                 <div class="field">
                     <label class="header">Height</label>
@@ -36,7 +35,6 @@ let heightSelect = (
                     </div>
                 </div>
             </div>
-            <div class="tile column"></div>
         </section>
     </div>`
 );
@@ -44,7 +42,6 @@ let heightSelect = (
 let weightSelect = (
     `<div class="userInput">
     <section class="box columns" id="WeightSelector">
-            <div class="tile column"></div>
             <div>
                 <div class="field">
                     <label class="header">Weight</label>
@@ -53,7 +50,6 @@ let weightSelect = (
                     </div>
                 </div>
             </div>
-            <div class="tile columns"></div>
         </section>
         </div>`
 );
@@ -61,7 +57,6 @@ let weightSelect = (
 let targetWeight = (
     `<div class="userInput">
     <section class="box columns" id="TargetWeight">
-            <div class="tile column"></div>
             <div>
                 <div class="field">
                     <label class="header">Target Weight</label>
@@ -70,7 +65,6 @@ let targetWeight = (
                     </div>
                 </div>
             </div>
-            <div class="tile column"></div>
         </section>
         </div>`
 );
@@ -78,7 +72,6 @@ let targetWeight = (
 let allergiesSelect = (
     `<div class="userInput">
     <section class="box columns" id="AllergiesSelector">
-            <div class="tile column"></div>
             <div>
                 <h1 class="header">Food Allergies</h1>
                 <div class="">
@@ -96,10 +89,11 @@ let allergiesSelect = (
                     </label>
                 </div>
             </div>
-            <div class="tile column"></div>
         </section>
         </div>`
 );
+
+let tabs = [genderSelect, heightSelect, weightSelect, targetWeight, allergiesSelect];
 
 export const loadUserInfoPage = function() {
     const $root = $('#root');
@@ -107,6 +101,50 @@ export const loadUserInfoPage = function() {
     let addition = genderSelect;
 
     $root.append(addition);
+
+    $("#rightArrow").on( "click", handleRightButton);
+    $("#leftArrow").on( "click", handleLeftButton);
+    $("#weightTab").on( "click", handleWeightTab);
+    $("#heightTab").on( "click", handleHeightTab);
+    $("#genderTab").on( "click", handleGenderTab);
+    $("#allergiesTab").on( "click", handleAllergiesTab);
+    $("#targetTab").on( "click", handleTargetTab);
+}
+
+export const handleWeightTab = function(event) {
+    $(".userInput").replaceWith(tabs[2]);
+}
+
+export const handleHeightTab = function(event) {
+    $(".userInput").replaceWith(tabs[1]);
+}
+
+export const handleGenderTab = function(event) {
+    $(".userInput").replaceWith(tabs[0]);
+}
+
+export const handleTargetTab = function(event) {
+    $(".userInput").replaceWith(tabs[3]);
+}
+
+export const handleAllergiesTab = function(event) {
+    $(".userInput").replaceWith(tabs[4]);
+}
+
+export const handleRightButton = function(event) {
+    if(tabCounter + 1 >= tabs.length){
+        return;
+    }
+    tabCounter++;
+    $(".userInput").replaceWith(tabs[tabCounter]);
+}
+
+export const handleLeftButton = function(event) {
+    if(tabCounter - 1 < 0){
+        return;
+    }
+    tabCounter--;
+    $(".userInput").replaceWith(tabs[tabCounter]);
 }
 
 $(function() {
