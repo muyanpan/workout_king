@@ -19,10 +19,15 @@ body {
     font-size: 125%;
 }
 
-#userInput {
+.userInput {
     font-size: 150%;
 }
 
 #GenderTitle {
     text-align: center;
 }
+
+.middleTile {
+    float: center;
+}
+
