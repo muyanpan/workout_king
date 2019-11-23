@@ -8,44 +8,62 @@
 </head>
 
 <body>
-    <section class="hero is-primary is-medium has-text-centered">
+    <section class="hero is-medium has-text-centered" id="titleBanner">
         <div class="hero-body">
             <div class="container">
-                <h1 class="title demoTitleText">
+                <span class="title demoTitleText">
                     Daily Calorie Overview!!
-                </h1>
-                <h2 class="subtitle demoTitleText">
+                </span>
+                <br><span class="subtitle demoTitleText">
                     Below are your dietary history and status!!
-                </h2>
+                </span>
             </div>
         </div>
     </section>
 
     <section class="section">
         <div class="container">
-            <div class="columns">
-                <div class="column has-text-centered">
-                    <h1>Daily Calorie Count</h1>
-                </div>
-                <div class="column hero is-primary has-text-centered">
-                    <h1>Daily Macronutrient Count</h1>
-                </div>
-                <div class="column hero has-text-centered">
-                    <h1>Weight Progress!</h1>
-                </div>
-                <div class="column hero is-primary has-text-centered">
-                    <h1>Exercise Counter!</h1>
-                </div>
+            <div class="tabs is-medium is-centered is-boxed is-toggle">
+                <ul>
+                    <li class = "is-active" id = "calorieTab"><a>Daily Calorie Count</a></li>
+                    <li id = "nutrientTab"><a>Daily Macronutrient Count</a></li>
+                    <li id = "weightTab"><a>Weight Progress</a></li>
+                    <li id = "exerciseTab"><a>Exercise Counter</a></li>
+                    <li id = "personalTab"><a>Personal Information</a></li>
+                </ul>
             </div>
         </div>
     </section>
 
+    <div class="tile is-parent box section columns">
+        <div class="tile is-child column outerArrow">
+            <div class = "innerArrow">
+                <label class="arrowNavi button" id = "leftArrow">
+                    <h1>&larr;</h1>
+                </label>
+            </div>
+        </div>
+        <div class="tile is-child column">
+            <div id="root">
+                <script src="js/demo.js" type="module"></script>
+                <script src="node_modules/jquery/dist/jquery.js"></script>
+            </div>
+        </div>
+        <div class="tile is-child column outerArrow">
+            <div class = "innerArrow">
+                <label class="arrowNavi button" id = "rightArrow">
+                    <h1>&rarr;</h1>
+                </label>
+            </div>
+        </div>
+    </div>
+
     <section class="section">
-        <div class="container" id="demoButton">
-            <div class="button navigationButton is-primary is-rounded is-outlined ">
+        <div class="container" id="buttonFloat">
+            <div class="button navigationButton is-outlined" id="finishedUserInfo">
                 <a href="index.html">
                     <p id="buttonText">
-                        Return to the Home Page!
+                        Back To The Home Screen!!
                     </p>
                 </a>
             </div>
