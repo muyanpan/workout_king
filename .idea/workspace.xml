@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="37461b15-1c7f-4a09-a67a-c6e0945ce039" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/register.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/register.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/user_info.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +28,12 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
@@ -62,6 +68,8 @@
       <workItem from="1572388974096" duration="1147000" />
       <workItem from="1572390287512" duration="6365000" />
       <workItem from="1574293204337" duration="4316000" />
+      <workItem from="1574537931570" duration="64000" />
+      <workItem from="1574558004104" duration="1585000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1572390338404</created>
