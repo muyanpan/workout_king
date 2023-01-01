@@ -22,7 +22,7 @@
     "bulma": "^0.8.0",
     "jquery": "^3.4.1",
     "react": "^16.11.0",
-    "webpack": "^4.41.2"
+    "webpack": "^5.75.0"
   },
   "devDependencies": {}
 }
